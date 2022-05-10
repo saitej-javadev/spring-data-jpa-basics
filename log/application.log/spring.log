@@ -122,3 +122,51 @@
 2022-05-10 14:10:57.744  INFO 4384 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-05-10 14:10:57.750  INFO 4384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-05-10 14:10:57.786  INFO 4384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-10 15:48:25.653  INFO 10276 --- [main] .r.ProductPagingAndSortingRepositoryTest : Starting ProductPagingAndSortingRepositoryTest using Java 1.8.0_05 on Vamshi with PID 10276 (started by abhinay in D:\SF Guru\spring-data-jpa-basics)
+2022-05-10 15:48:25.658  INFO 10276 --- [main] .r.ProductPagingAndSortingRepositoryTest : No active profile set, falling back to 1 default profile: "default"
+2022-05-10 15:48:26.812  INFO 10276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 15:48:26.948  INFO 10276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 2 JPA repository interfaces.
+2022-05-10 15:48:28.425  INFO 10276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-10 15:48:29.529  INFO 10276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-10 15:48:30.171  INFO 10276 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 15:48:30.325  INFO 10276 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 15:48:30.741  INFO 10276 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 15:48:31.353  INFO 10276 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 15:48:32.524  INFO 10276 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 15:48:32.542  INFO 10276 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:48:34.103  INFO 10276 --- [main] .r.ProductPagingAndSortingRepositoryTest : Started ProductPagingAndSortingRepositoryTest in 9.503 seconds (JVM running for 13.116)
+2022-05-10 15:48:34.858  INFO 10276 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:48:34.861  INFO 10276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-10 15:48:34.877  INFO 10276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-10 15:49:05.657  INFO 7724 --- [main] .r.ProductPagingAndSortingRepositoryTest : Starting ProductPagingAndSortingRepositoryTest using Java 1.8.0_05 on Vamshi with PID 7724 (started by abhinay in D:\SF Guru\spring-data-jpa-basics)
+2022-05-10 15:49:05.663  INFO 7724 --- [main] .r.ProductPagingAndSortingRepositoryTest : No active profile set, falling back to 1 default profile: "default"
+2022-05-10 15:49:06.654  INFO 7724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 15:49:06.788  INFO 7724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 2 JPA repository interfaces.
+2022-05-10 15:49:08.043  INFO 7724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-10 15:49:09.015  INFO 7724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-10 15:49:09.267  INFO 7724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 15:49:09.432  INFO 7724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 15:49:09.779  INFO 7724 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 15:49:10.120  INFO 7724 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 15:49:11.652  INFO 7724 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 15:49:11.670  INFO 7724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:49:13.132  INFO 7724 --- [main] .r.ProductPagingAndSortingRepositoryTest : Started ProductPagingAndSortingRepositoryTest in 8.703 seconds (JVM running for 12.039)
+2022-05-10 15:49:13.889  INFO 7724 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:49:13.895  INFO 7724 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-10 15:49:13.921  INFO 7724 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-10 15:58:29.144  INFO 13256 --- [main] .r.ProductPagingAndSortingRepositoryTest : Starting ProductPagingAndSortingRepositoryTest using Java 1.8.0_05 on Vamshi with PID 13256 (started by abhinay in D:\SF Guru\spring-data-jpa-basics)
+2022-05-10 15:58:29.148  INFO 13256 --- [main] .r.ProductPagingAndSortingRepositoryTest : No active profile set, falling back to 1 default profile: "default"
+2022-05-10 15:58:31.378  INFO 13256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 15:58:31.771  INFO 13256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 353 ms. Found 2 JPA repository interfaces.
+2022-05-10 15:58:33.328  INFO 13256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-10 15:58:34.848  INFO 13256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-10 15:58:35.147  INFO 13256 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 15:58:35.329  INFO 13256 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 15:58:36.420  INFO 13256 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 15:58:36.734  INFO 13256 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 15:58:37.978  INFO 13256 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 15:58:37.994  INFO 13256 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:58:39.314  INFO 13256 --- [main] .r.ProductPagingAndSortingRepositoryTest : Started ProductPagingAndSortingRepositoryTest in 11.684 seconds (JVM running for 15.17)
+2022-05-10 15:58:40.040  INFO 13256 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:58:40.045  INFO 13256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-10 15:58:40.064  INFO 13256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
