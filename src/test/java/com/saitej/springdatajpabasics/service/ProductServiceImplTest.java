@@ -63,4 +63,12 @@ class ProductServiceImplTest {
         log.info("Logging products by findByName() {}", product);
 
     }
+
+
+    @Test
+    void findByNameAndDesc() {
+        List<Product> products = productService.findByNameAndDesc("S20","from Samsung Inc");
+        log.info("Logging products by findByNameAndDesc() {}", products);
+
+    }
 }

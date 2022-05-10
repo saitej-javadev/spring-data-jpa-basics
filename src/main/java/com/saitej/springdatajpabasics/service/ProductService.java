@@ -10,5 +10,6 @@ public interface ProductService {
     Product saveProduct(Product product);
     Product updateProduct(Long id,Product product);
     String deleteById(Long id);
-    List<Product> findByName(String name);
+    List<Product> findByName(String name); // custom method
+    List<Product> findByNameAndDesc(String name,String desc); // custom method
 }
