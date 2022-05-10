@@ -31,14 +31,14 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public Product updateProduct(Long id,Product product) {
+    public Product updateProduct(Long id, Product product) {
         return productRepository.save(product);
     }
 
     @Override
-    public String  deleteById(Long id) {
+    public String deleteById(Long id) {
         productRepository.deleteById(id);
-        return "Product deleted : "+ id;
+        return "Product deleted : " + id;
 
     }
 
@@ -49,6 +49,31 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public List<Product> findByNameAndDesc(String name, String desc) {
-        return productRepository.findByNameAndDesc(name,desc);
+        return productRepository.findByNameAndDesc(name, desc);
+    }
+
+    @Override
+    public List<Product> findByPriceGreaterThan(double price) {
+        return productRepository.findByPriceGreaterThan(price);
+    }
+
+    @Override
+    public List<Product> findByDescContains(String name) {
+        return productRepository.findByDescContains(name);
+    }
+
+    @Override
+    public List<Product> findByPriceBetween(double price, double price2) {
+        return productRepository.findByPriceBetween( price,  price2);
+    }
+
+    @Override
+    public List<Product> findByDescLike(String name) {
+        return productRepository.findByDescLike("Apple");
+    }
+
+    @Override
+    public List<Product> findByIdIn(List<Long> ids) {
+        return productRepository.findByIdIn(ids);
     }
 }
