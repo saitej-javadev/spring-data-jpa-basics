@@ -1,4 +1,4 @@
-# spring-data-jpa-basics 
+# spring-data-jpa-basics (Spring Data JPA Finder Methods)
             with Hibernate Caching (1st level Caching(default caching) and 2nd level Caching)
 
 # For more custom JPA methods 
